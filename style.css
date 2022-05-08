@@ -16,7 +16,7 @@ main {
 
 #container {
     width: 375px;
-    height: 766px;
+    height: 796px;
     margin: 0 auto;
     margin-top: 100px;
     background-color: #F4F4F4;
@@ -59,8 +59,16 @@ main {
     border: 1px solid #BBBBBB;
     border-radius: 4px;
     margin: 6px 0 23px 0;
+    appearance: none;
 }
-
+#optionsMoedas{
+    padding: 15px 150px 15px 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #555555;
+}
 .title-moedas {
     padding: 15px 178px 15px 16px;
     font-style: normal;
@@ -80,18 +88,31 @@ main {
     font-size: 16px;
     line-height: 18px;
     color: #F4F4F4;
+    border: none;
 }
-
+#button,#container-header,.container-moedas:hover{
+   border: 2px solid rgb(43, 49, 56);
+}
 #container-result {
     border: 3px solid #1B83E2;
     width: 327px;
     height: 276px;
-    margin-top: 36px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+    border-radius: 10px;
 }
 #container-result img{
     width: 44px;
+}
+#valor{
+    padding: 15px 16px 15px 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #555555;
+
 }
